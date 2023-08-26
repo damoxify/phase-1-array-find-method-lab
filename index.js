@@ -1,10 +1,9 @@
 // code your solution here
-
 function superbowlWin(record) {
     const winRecord = record.find(entry => entry.result === "W");
     return winRecord ? winRecord.year : undefined;
   }
-  
+
   const record = [
     { year: "2018", result: "N/A"},
     { year: "2017", result: "N/A"},
